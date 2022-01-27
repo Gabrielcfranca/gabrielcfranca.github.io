@@ -10,28 +10,53 @@
 
     <style>
       body {
-        background-color: rgb(194, 194, 194);
+        background-color: rgb(207, 212, 223);
         font-size: large;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
       p {
+        font-size: 17px;
+        color: rgb(0, 24, 69);
+        line-height: 20px;
+      }
+      .legendasdefotos { 
+        color: rgb(0, 18, 51);
+        background-color: rgb(169, 187, 223);
         font-size: 16px;
-        color: rgb(30, 0, 87);
+        border-radius: 5%;
+        padding: 2px;
+        padding-left: 5px;
+      }
+
+      .picture {
+        border-radius: 5%;
+      }
+      .button {      
+        color: midnightblue;
+        background-color: steelblue;
+        padding: 10px;
+        border-radius: 7px;
+        margin: 15px;
+      }
+
+      .stylelist {
+        font-style: italic;
+        color: rgb(0, 40, 85);
       }
 
     </style>
   </head>
 
   <body>
-    <h1 id="titulo">Gabriel Campos França</h1>
-    <img
+    <h1 style="color: rgb(0, 24, 69); font-size: 30px;" id="titulo">Gabriel Campos França</h1>
+    <img class="picture"
       src="/fotos/fotoAtualGabrielJPG"
       id="foto1"
       alt="Foto perfil"
       width="250"
     />
     <p></p>
-    <h2>
+    <h2 class="legendasdefotos">
       Foto tirada na última viagem, meu presente para iniciar com tudo o curso
       da Trybe!
     </h2>
@@ -40,15 +65,15 @@
       <strong>Brasileiro e Carioca com muito orgulho,</strong> moro em
       <strong>bh</strong> desde os 3 anos de idade.
     </p>
-    <h3>Lista com minhas principais habilidades:</h3>
-    <ul>
-      <li>Comunicativo</li>
-      <li><strong>Proativo;</strong></li>
-      <li>Trabalho em equipe;</li>
-      <li>Resiliente</li>
-      <li>Auto confiança e autoconhecimento</li>
+    <h3 class="tituloVerde">Lista com minhas principais habilidades:</h3>
+    <ul class="stylelist">
+      <li style="font-size: large">Comunicativo</li>
+      <li style="font-size: larger"><strong>Proativo;</strong></li>
+      <li style="font-size: medium">Trabalho em equipe;</li>
+      <li style="font-size: 15px">Resiliente</li>
+      <li style="font-size: 1em">Auto confiança e autoconhecimento</li>
     </ul>
-    <h3>Vai algumas dicas de blogs e sites bons para acompanhar?</h3>
+    <h3 class="tituloVerde">Vai algumas dicas de blogs e sites bons para acompanhar?</h3>
     <br />
     <ul>
       <li>
@@ -66,8 +91,8 @@
         ><br /><br />
       </li>
     </ul>
-    <h4><strong>Follow me on my social networks!</strong></h4>
-    <a href="https://www.linkedin.com/in/gabriel-campos-fran%C3%A7a-2b025b56/" target="_blank">LinkedIn</a> <br />
+    <h4 class="tituloVerde"><strong>Follow me on my social networks!</strong></h4>
+    <a class="button"  href="https://www.linkedin.com/in/gabriel-campos-fran%C3%A7a-2b025b56/" target="_blank">LinkedIn</a> <br />
     <a href="https://www.instagram.com/gabrielcfranca/" target="_blank">Instagram</a> <br /><br />
     <a href="#foto1" target="_blank">Veja a foto.</a> <br /><br />
     <a href="#titulo" target="">Clique aqui e Siga para o título.</a>
