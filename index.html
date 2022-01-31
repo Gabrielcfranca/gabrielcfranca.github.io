@@ -3,79 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <title>Meu primeiro portifólio Web.</title>
-    
-    <!-- <link rel=""> para puxar alguma informação da web, ex. uma font q não está instalada.>
-      
-    <!--CSS INTERNO-->
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-      body {
-        background-color: rgb(207, 212, 223);
-        font-size: large;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-      }
-      p {
-        font-size: 17px;
-        color: rgb(0, 24, 69);
-        line-height: 20px;
-      }
-      .legendasdefotos { 
-        color: rgb(0, 18, 51);
-        background-color: rgb(169, 187, 223);
-        font-size: 16px;
-        border-radius: 5%;
-        padding: 2px;
-        padding-left: 5px;
-      }
-
-      .picture {
-        border-radius: 5%;
-      }
-      .button {      
-        color: midnightblue;
-        background-color: steelblue;
-        padding: 10px;
-        border-radius: 7px;
-        margin: 15px;
-      }
-
-      .stylelist {
-        font-style: italic;
-        color: rgb(0, 40, 85);
-      }
-
-    </style>
   </head>
 
   <body>
-    <h1 style="color: rgb(0, 24, 69); font-size: 30px;" id="titulo">Gabriel Campos França</h1>
-    <img class="picture"
-      src="/fotos/fotoAtualGabrielJPG"
-      id="foto1"
-      alt="Foto perfil"
-      width="250"
-    />
-    <p></p>
-    <h2 class="legendasdefotos">
-      Foto tirada na última viagem, meu presente para iniciar com tudo o curso
-      da Trybe!
-    </h2>
+    <div>
+      <h1>Gabriel Campos França</h1>
+        <div class="image-container">
+          <img class="picture" src="/fotos/fotoAtualGabrielJPG" alt="Foto perfil"/>
+          <p class="legendasdefotos">Foto tirada na última viagem, meu presente para iniciar com tudo o curso da Trybe!</p>
+      </div>
+  </div>
     <p>
       Tenho 33 anos, formado em adm, pós em controladoria e finanças, sou
       <strong>Brasileiro e Carioca com muito orgulho,</strong> moro em
       <strong>bh</strong> desde os 3 anos de idade.
     </p>
-    <h3 class="tituloVerde">Lista com minhas principais habilidades:</h3>
-    <ul class="stylelist">
+    <h3 class="titulolista">Lista com minhas principais habilidades:</h3>
+    <ul class="stylelist stylelist1">
       <li style="font-size: large">Comunicativo</li>
       <li style="font-size: larger"><strong>Proativo;</strong></li>
       <li style="font-size: medium">Trabalho em equipe;</li>
       <li style="font-size: 15px">Resiliente</li>
       <li style="font-size: 1em">Auto confiança e autoconhecimento</li>
     </ul>
-    <h3 class="tituloVerde">Vai algumas dicas de blogs e sites bons para acompanhar?</h3>
-    <br />
-    <ul>
+    <h3 class="titulolista">Vai algumas dicas de blogs e sites bons para acompanhar?</h3>
+    
+    <ul class="stylelist">
       <li>
         <a href="https://www.moneytimes.com.br/" target="_blank"
           ><em
@@ -92,8 +47,9 @@
       </li>
     </ul>
     <h4 class="tituloVerde"><strong>Follow me on my social networks!</strong></h4>
-    <a class="button"  href="https://www.linkedin.com/in/gabriel-campos-fran%C3%A7a-2b025b56/" target="_blank">LinkedIn</a> <br />
-    <a href="https://www.instagram.com/gabrielcfranca/" target="_blank">Instagram</a> <br /><br />
+    
+    <a href="https://www.linkedin.com/in/gabriel-campos-fran%C3%A7a-2b025b56/" target="_blank" img src><img class="in" src="/fotos/iconLinkedin" alt="incone linkedin"></a> <br />
+    <a class="instagram" href="https://www.instagram.com/gabrielcfranca/" target="_blank">Instagram</a> <br /><br />
     <a href="#foto1" target="_blank">Veja a foto.</a> <br /><br />
     <a href="#titulo" target="">Clique aqui e Siga para o título.</a>
   </body>

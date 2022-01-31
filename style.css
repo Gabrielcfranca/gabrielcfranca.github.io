@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(207, 212, 223);
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:1%
+  }
+  div {
+    border: solid red;
+  }
+  p {
+    font-size: 17px;
+    color: rgb(0, 24, 69);
+    line-height: 20px;
+    margin-left: 20px;
+  }
+  .legendasdefotos {
+    position: absolute;
+    top: 36%;
+    left: 15%;
+    color: rgb(0, 18, 51);
+    background-color: rgb(169, 187, 223);
+    font-size: 16px;
+    border-radius: 5%;
+    padding: 2px;
+    padding-left: 5px;
+  
+  }
+
+  .picture {
+    float: left;
+    border-radius: 5%;
+    border-style: groove;
+    height: 250px;
+    padding: 20px;
+    background-color: rgb(116, 154, 185);
+    margin-right: 20px;
+  }
+  
+  .titulolista {
+    margin-left: 20px;
+  }
+
+  .stylelist {
+    font-style: italic;
+    color: rgb(0, 40, 85);
+    margin-left: 25px;
+  }
+  h1 {
+      border: solid blue 2px;
+      font-size: 30px;
+      text-align: center;
+  }
+  .image-container {
+    position: relative;
+    height: 300px;
+  }
+  .in {
+    display: inline-block;
+    width: 40px; 
+    margin-left: 2px;
+    border-radius: 7%;
+
+  }
+  .stylelist1 li:nth-child(odd){
+    background-color: dodgerblue;
+  }
+  
+  .instagram {
+    padding: px;
+  }
+
